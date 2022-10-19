@@ -1,0 +1,49 @@
+how you need to study java?
+-------------------------------
+Download, installation and configuration of Java
+Eclipse IDE
+IntelliJ IDEA
+
+Data Types
+Variables 
+Operators, Literals and keywords in java
+Identifiers
+jdk vs jre vs jvm
+Compile and run a java program using notepad and cmd
+architecture of jvm
+first java program - main method (will have lot of concepts)
+access modifiers
+println
+print
+concatenation operators
+increment/decrement operators
+Operators in java - Arithmetic, Assignment, Comparison, Logical, Bitwise
+Control statements
+if else
+if else ladder
+switch
+
+loops - while, do while, for loop, for loop inside for loop, advanced (for each)
+
+Arrays - Data Structures/Algorithms
+Strings
+
+OOP
+Classes and Objects
+Methods
+inheritance
+polymorphism
+abstraction
+encapsulation
+this super
+
+final finally finalize
+
+Collections
+----------------------------------
+
+
+
+
+
+

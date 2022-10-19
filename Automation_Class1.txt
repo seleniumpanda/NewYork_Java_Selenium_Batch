@@ -1,0 +1,100 @@
+locators in Selenium ?
+-----------------------
+16 - answer
+
+id
+className
+name
+tagname
+linktext
+partiallinktext
+xpath
+cssSelector
+
+Exceptions to be taken care while using id ? 
+if it is dynamic do not use
+
+2nd priority - className
+3rd priority - name
+
+xpath and cssSelector - relative
+
+dynamic/relative/customized
+------------------------------------------------------------------------------------------
+
+Xpath
+definition - address of a web element
+
+basic syntax  -    //html[@attribute = 'value of the attribute']
+                  //html[@attribute = 'value' and @attribute = 'value']
+
+text  - //html[text() = 'valueofthetext']
+
+contains    -       //html[contains(text(), ' value ')]
+                    //html[contains(@attribute, 'value of the attribute')]
+=====================================================================================
+
+following
+preceding
+following-sibling
+preceding-sibling
+ancestor
+descendant
+parent
+child
+
+----------------------------------------------------------------------------------------
+
+//li[@class = 'logo']/descendant::img[1]
+//nav[@id = 'nav-website']/descendant::img[1]
+//div[@id = 'banner_android']/following-sibling::nav[1]/descendant::img[1]
+//div[@id = 'footer-website']/preceding::li[@id = 'hamburger']/preceding::img[1]
+
+value of an id - developer has to report 
+
+
+/html/body/div[2]/div/div[2]/a[2]
+/html/body/div[2]/div/div[2]/a[2]
+/html/body/div[2]/div/div[2]/a[2]
+-------------------------------------------------------------------------------------
+<html>
+ <head> ... </head>
+ <body> ... </body>
+</head>
+
+
+//nav[@id = 'nav-website']/child::ul[1]/child::li[1]/child::a/child::img[1]
+//nav[@id = 'nav-website']/descendant::img[1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ByAll
+ByIdOrName
+ByChained
+above
+below
+toRightOf
+toLeftOf
+near
